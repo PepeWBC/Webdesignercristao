@@ -1,5 +1,6 @@
 # Webdesignercristao
 Desenvolvimento Web Designer Gráfico
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -74,3 +75,369 @@ e este site fica em meu portifolio no futuro.
  </div>
 </footer>
 </html>
+
+# Pagina de Portifólio
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="utf-8">
+ <title>Start Html - Desenvolvendo com Inteligência! </title>
+ <link rel="stylesheet" href="/storage/emulated/0/Documents/Treino/Estilo/style.css" type="text/css">
+ <link href='http://fonts.googleapis.com/css?family=Lato:400,400,700' rel='stylesheet' type='text/css'>
+ <meta name="viewport" content="width=device-width, initial scale=1">
+
+</head>
+
+<body>
+
+<header class="menu-principal">
+     <div class="header-1">
+       <div class="logo">
+          <img src="/storage/emulated/0/Documents/Treino/Img/start-1.png"/>         
+   </div>
+   <div class="facebook">
+    <ul>
+       <li><a href="https://m.facebook.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/facebook.png"/> </li> </a> 
+         <li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/insta.png"/> </li> </a>
+         <li><a href="https://br.linkedin.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/in.png"/>
+         </li> </a>
+     </ul>
+     
+       </div>
+       </div>
+
+     <div>
+      <input type="search" name="busca" class="busca" size="20" maxlength="15" placeholder="Buscar"/>
+     </div>
+     <div class="lupa" name="lupa"><img src="/storage/emulated/0/Documents/Treino/Img/icone.png"/>
+     </div>
+  </header>
+
+  <div class="menu">
+   <div class="menuplus">
+     <ul>
+      <li><a href="index.html">Home</li>
+ </a>     
+      <li><a
+       href="portifolio.html">Portifólio</li> </a>
+      <li><a href="contato.html">Contato</li> </a>
+   
+    </div>
+  </div>
+</body>
+ <section class="texto">
+   <h2> Portifólio</h2>
+     <p>Este site foi completamente desenvolvido usando apenas Html e css. Todo codigos foram feitos usando apenas um aparelho Celular.
+</br>-Passe o Mause sobre as imagens para Amplialas.</p>
+  
+<ul id="album-fotos">
+<li id="tela1"><span>App Droid Edit-free</li> </span>
+<li id="tela2"><span>Reset css</li> </span>
+<li id="tela3"><span>Link Telas</li> </span>
+<li id="tela4"><span>Pagina Inicial</li> </span>
+<li id="tela5"><span>Portifolio</li> </span>
+<li id="tela6"><span>Contato</li> </span>
+
+</ul>
+
+</section>
+<footer>
+ <div class="rodape">
+ <h3>Todos os Direitos Reservados -</br>By Peterson Fernando - 2019<h3>
+ 
+ </div>
+</footer>
+</html>
+
+# Pagina de Contato
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="utf-8">
+ <title>Start Html - Desenvolvendo com Inteligência! </title>
+ <link rel="stylesheet" href="/storage/emulated/0/Documents/Treino/Estilo/style.css" type="text/css">
+ <link href='http://fonts.googleapis.com/css?family=Lato:400,400,700' rel='stylesheet' type='text/css'>
+ <meta name="viewport" content="width=device-width, initial scale=1">
+
+</head>
+
+<body>
+
+<header class="menu-principal">
+     <div class="header-1">
+       <div class="logo">
+          <img src="/storage/emulated/0/Documents/Treino/Img/start-1.png"/>         
+   </div>
+   <div class="facebook">
+      <ul>
+       <li><a href="https://m.facebook.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/facebook.png"/> </li> </a> 
+         <li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/insta.png"/> </li> </a>
+         <li><a href="https://br.linkedin.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/in.png"/>
+         </li> </a>
+     </ul>
+       </div>
+       </div>
+
+     <div>
+      <input type="search" name="busca" class="busca" size="20" maxlength="15" placeholder="Buscar"/>
+     </div>
+     <div class="lupa" name="lupa"><img src="/storage/emulated/0/Documents/Treino/Img/icone.png"/>
+     </div>
+  </header>
+
+  <div class="menu">
+   <div class="menuplus">
+     <ul>
+      <li><a href="index.html">Home</li>
+ </a>     
+      <li><a
+       href="portifolio.html">Portifólio</li> </a>
+      <li><a href="contato.html">Contato</li> </a>
+   
+    </div>
+  </div>
+</body>
+ <section class="texto">
+   <h2> Contato</h2>
+     <p>Faça seu orçamento!</p>
+<form>
+
+<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+
+<p>Nome:</p> <input type="text" name="tName" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/>
+<p>E-mail:</p> <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="exemplo@exemplo.com"/>
+<fieldset id="sexo"><legend>Sexo</legend>
+ <input type="radio" name="tSexo" id="cMasc"/><label for="cMasc"> Masculino </label>
+ <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino </label>
+ </fieldset>
+<p>Data de Nascimento:</p> <input type="date" name="tNasc" id="cNasc"/>
+</fieldset>
+
+<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+<p>Logradouro:</p> <input type="texy" name="tRua" id="cRua" size="13" maxlength="60" placeholder="Rua,Av,Trav,..."/>
+<p>Número:</p> <input type="number" name="tNum" id="cNum" min="0" max="999"/>
+<p>Estado:</p> <select name="tEst" id="cEst">
+ <option selected>São Paulo</option>
+ <option>Rio de Janeiro</option>
+ <option>Belo Horizonte</option>
+ <option>Distrito federal</option>
+ <option>Salvador</option>
+ <option>Minas Gerais</option>
+ <option>Paraná</option>
+ <option>Santa Catarina</option>
+ <option>Rio Grande do Sul</option>
+ <option>Mato Grosso</option>
+ <option>Goias</option>
+
+
+<p>Cidade:</p> <input type="" name="tCid" id="cCid" maxlenght=20 placeholder="Sua Cidade"/>
+</fieldset>
+
+<fieldset id="mensgem"><legend>Mensagem do Usuário</legend>
+<p>Grau de Urgência:</p>Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5"/>Máx
+
+<p>Mensagem:</p><textarea> <name="tMsg" id="cMsg" cols="45"rows="5" placeholder="Deixe sua Mensagem"></textarea>
+</fieldset>
+<input type="submit" value="Enviar"/>
+</form>
+</section>
+<footer>
+ <div class="rodape">
+ <h3>Todos os Direitos Reservados -</br>By Peterson Fernando - 2019<h3>
+ 
+ </div>
+</footer>
+</html>
+
+# Pagina de ESTILO
+
+/*Reset*/
+* {
+ margin: 0;
+ padding: 0;
+ font-size: 100%;
+ border: none;
+ outline: none;
+ font-weight: 300;
+ box-sizing: border-box;
+ font-family: "Lato", sans-serif;
+ 
+}
+
+/*Cabecalho*/
+ 
+.header-1 {
+ background-color: #808080;
+ height: 60px;
+ border-bottom: solid;
+}
+.logo img {
+ height: 65px;
+ width: 65px;
+}
+.facebook ul li {
+ display: inline-block;
+ float: right;
+ margin-left: 5%;
+}
+.facebook img {
+ height: 25px;
+ width: 25px;
+}
+
+/*Menu*/
+
+.menu {
+ display: inline-block;
+ background-color: #2f4f4f;
+ width: 100%;
+ border-bottom: solid;
+}
+.menuplus ul li {
+ display: inline-block;
+ color: #fff5ee;
+ margin-left: 3%;
+}
+.menuplus ul li a {
+ text-decoration:none;
+ font-size: 20px;
+ color: #fff5ee;
+ text-transform: uppercase;
+ 
+}
+/*Barra de Busca*/
+
+.busca {
+ width: 40%;
+ border: 1px solid #ccc;
+ border-radius: 15%;
+ margin-left: 5%;
+ outline: none;
+ height: 15px;
+ padding: 15px;
+ position: absolute;
+ top: 63px;
+}
+.lupa img {
+ position: relative;
+ width: 20px;
+ height: 20px;
+ margin-left: 148px;
+ top: 9px;
+}
+
+/*Conteudo*/
+.texto h2 {
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ border-bottom: 1px solid;
+ font-weight: bold;
+}
+.texto p {
+ text-align: justify;
+ text-indent: 20px;
+ margin-bottom: 20px;
+ margin-left: 6px;
+ margin-right: 6px;
+}
+
+.figure img {
+ display: inline-block;
+ margin-right: 5px;
+ margin-left: 5px;
+}
+/*RodaPe*/
+.rodape {
+ background-color: #2f4f4f;
+ border-top: 1px solid;
+}
+.rodape h3 {
+ color:#fff;
+ text-align: center;
+ 
+}
+
+/*Portifolio*/
+ul#album-fotos li span {
+ opacity: 1;
+ color: #ffffff;
+ text-shadow: 1px 1px 1px #000000;
+ background-color: rgba(0,0,0,.3);
+ line-height: 350px;
+ padding: 5px;
+}
+ul#album-fotos {
+ width: 300px;
+ margin: 0 auto;
+ padding: 50px;
+ overflow: hidden;
+ list-style: none;
+}
+ul#album-fotos li {
+ width: 200px;
+ height: 200px;
+ margin: 10px;
+ border: 5px solid #ffffff;
+ background-color: #ffffff;
+ box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+ul#album-fotos li#tela1 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela1.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+ul#album-fotos li#tela2 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela2.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+ul#album-fotos li#tela3 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela3.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+ul#album-fotos li#tela4 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela4.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+ul#album-fotos li#tela5 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela5.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+ul#album-fotos li#tela6 {
+ background: url(/storage/emulated/0/Documents/Treino/Img/tela6.png) no-repeat;
+ background-position: 50% 50%;
+ background-size: 480px 800px;
+ background-color: #ffffff;
+}
+/*Formulario*/
+form {
+ width: 250px;
+ margin: auto;
+ padding: 5%;
+}
+input {
+ font-family: sans-serif;
+ font-weight: normal;
+ font-size: 13pt;
+}
+legend {
+ color: #888888;
+ font-weight: bold;
+ font-size: 13pt;
+ font-family: sans-serif;
+}
+fieldset {
+ border-color: #cecece;
+ margin: 10px;
+}
