@@ -1,0 +1,76 @@
+# Webdesignercristao
+Desenvolvimento Web Designer Gráfico
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="utf-8">
+ <title>Start Html - Desenvolvendo com Inteligência! </title>
+ <link rel="stylesheet" href="/storage/emulated/0/Documents/Treino/Estilo/style.css" type="text/css">
+ <link href='http://fonts.googleapis.com/css?family=Lato:400,400,700' rel='stylesheet' type='text/css'>
+ <meta name="viewport" content="width=device-width, initial scale=1">
+
+</head>
+
+<body>
+
+<header class="menu-principal">
+     <div class="header-1">
+       <div class="logo">
+          <img src="/storage/emulated/0/Documents/Treino/Img/start-1.png"/>         
+   </div>
+   <div class="facebook">
+     <ul>
+       <li><a href="https://m.facebook.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/facebook.png"/> </li> </a> 
+         <li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/insta.png"/> </li> </a>
+         <li><a href="https://br.linkedin.com" target="_blank"><img src="/storage/emulated/0/Documents/Treino/Img/in.png"/>
+         </li> </a>
+     </ul>
+       </div>
+       </div>
+
+     <div>
+      <input type="search" name="busca" class="busca" size="20" maxlength="15" placeholder="Buscar"/>
+     </div>
+     <div class="lupa" name="lupa"><img src="/storage/emulated/0/Documents/Treino/Img/icone.png"/>
+     </div>
+  </header>
+
+  <div class="menu">
+   <div class="menuplus">
+     <ul>
+      <li><a href="index.html">Home</li>
+ </a>     
+      <li><a
+       href="portifolio.html">Portifólio</li> </a>
+      <li><a href="contato.html">Contato</li> </a>
+   
+    </div>
+  </div>
+</body>
+ <section class="texto">
+   <h2> Este Site Foi Criado</br> Cem Porcento pelo Android</h2>
+     <p> Este Site é inteiramente criado no sistema android, utilizando apenas um aplicativo de Editor de Texto gratuito.
+     Apenas para estudo e mais compreensão das Estruturas de um site.
+     totalmente funcional e todo feito focado no android. Talvez sua esperiencia no desktop seja horrivel kkkk mais recomendo usar seu celular para uma melhor experiência.
+     Site foi criado utilizando apenas Html e css, focado apenas no aprimoramento e estudo do mesmo.
+ </p>
+<figure>
+  <img src="/storage/emulated/0/Documents/Treino/Img/foto.png"/>
+</figure>
+
+<h2 class"texto">Porque Criei o Site no Celular?</h2>
+
+<p class"texto"> -Principal, falta de recursos e não ter um computador.
+Sempre amei programação e resolvi começar mesmo sem ter recursos.
+Me ajuda muito a aprender enquanto estou fazendo os cursos.
+e este site fica em meu portifolio no futuro.
+</p>
+</section>
+<footer>
+ <div class="rodape">
+ <h3>Todos os Direitos Reservados - </br>By Peterson Fernando - 2019<h3>
+ 
+ </div>
+</footer>
+</html>
